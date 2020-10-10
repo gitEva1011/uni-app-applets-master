@@ -1,0 +1,15 @@
+{
+  "name": "hello-app",
+  "version": "1.0.0",
+  "description": "小程序的开发选型，推荐这篇文章[小程序开发：用原生还是选框架](https://juejin.im/post/5cfdcf056fb9a07ecd3d5068)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuex-persistedstate": "^2.7.1"
+  }
+}
