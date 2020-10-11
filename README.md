@@ -17,7 +17,7 @@
 
 ### 四、项目开发
 
-1、新建一个`uni-app`项目
+1、 新建一个`uni-app`项目
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201010192547485.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQ0NDU1MTc=,size_16,color_FFFFFF,t_70#pic_center)
 2、项目结构
@@ -66,4 +66,7 @@ Tips:
 接下来就可以运行项目了
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201010200451449.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQ0NDU1MTc=,size_16,color_FFFFFF,t_70#pic_center)
 
-接下来就可以正式开发项目了。
+运行以后会自动启动微信开发者工具，如果不能自动启动的话，需要手动启动程序。
+
+4.该项目搭建了相关模块的框架，并实现了分享，接口的封装调用，路由跳转，表单，弹框，联系客服等模块。
+接口地址自行修改后就可使用。
