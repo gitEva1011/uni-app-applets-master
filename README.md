@@ -27,6 +27,7 @@
 
 
 
+```
 ├─ common/              # 公用工具库文件
 ├─ components/          # uni-app组件目录
 │  ├─ common/        # 公共组件
@@ -49,6 +50,7 @@
 ├─ manifest.json        # 配置应用名称、appid、logo、版本等打包信息
 ├─ package.json         # 增加uni-app扩展节点，可实现自定义条件编译平台
 ├─ pages.json         # 全局配置，决定页面文件的路径、窗口样式、原生的导航栏、底部的原生tabbar 等。
+```
 
 Tips:
 
