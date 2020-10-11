@@ -27,15 +27,10 @@
 
 
 
-.
 ├─ common/              # 公用工具库文件
-
 ├─ components/          # uni-app组件目录
-
 │  ├─ common/        # 公共组件
-
 ├─ models/              # 接口调取目录
-
 ├─ hybrid/              # 存放本地网页的目录
 ├─ pages/               # 业务页面文件存放的目录
 │  ├─ index/            
