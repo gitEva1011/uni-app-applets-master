@@ -24,10 +24,10 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201010192722478.png#pic_center)
 
 
-.
+```
 ├─ common/              # 公用工具库文件
 ├─ components/          # uni-app组件目录
-│  ├─ common/        # 公共组件
+│  ├─ common/           # 公共组件
 ├─ models/              # 接口调取目录
 ├─ hybrid/              # 存放本地网页的目录
 ├─ pages/               # 业务页面文件存放的目录
@@ -40,13 +40,14 @@
 ├─ platforms/           # 存放各平台专用页面的目录
 ├─ static               # 存放应用引用静态资源（如图片、视频等）的目录，注意：静态资源只能存放于此
 ├─ unpackage/           # 打包目录
-├─ utils/           # 工具目录
+├─ utils/               # 工具目录
 ├─ wxcomponents/        # 存放小程序组件的目录
 ├─ App.vue              #  应用配置，用来配置App全局样式以及监听
 ├─ main.js              # Vue初始化入口文件
 ├─ manifest.json        # 配置应用名称、appid、logo、版本等打包信息
 ├─ package.json         # 增加uni-app扩展节点，可实现自定义条件编译平台
-├─ pages.json         # 全局配置，决定页面文件的路径、窗口样式、原生的导航栏、底部的原生tabbar 等。
+├─ pages.json          # 全局配置，决定页面文件的路径、窗口样式、原生的导航栏、底部的原生tabbar 等。
+```
 
 Tips:
 
@@ -70,5 +71,17 @@ Tips:
 
 运行以后会自动启动微信开发者工具，如果不能自动启动的话，需要手动启动程序。
 
-4.该项目搭建了相关模块的框架，并实现了分享，接口的封装调用，路由跳转，表单，弹框，联系客服等模块。
+4.源码请参考[项目地址](https://github.com/gitEva1011/uni-app-applets-master)
+该项目搭建了相关模块的框架，并实现了分享，接口的封装调用，路由跳转，表单，弹框，联系客服等模块。
 接口地址自行修改后就可使用。
+
+vuex状态管理
+
+uni-app 内置了 vuex。但是vuex是不支持持久化存储的，所以需要结合第三方来一起协作。
+
+默认的模板项目首先是没有node-modules模块依赖的，也就是说你没法进行一些第三方的扩展，所以为了让你的项目更加的灵活性，你需要执行以下命令来搭配一些第三方来更随心所欲的开发项目
+
+```bash
+npm init -y
+npm install vuex-persistedstate --save
+```

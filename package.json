@@ -11,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "vuex-persistedstate": "^2.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limeirong-dev/uni-app-applets-master.git"
+  },
+  "bugs": {
+    "url": "https://github.com/limeirong-dev/uni-app-applets-master/issues"
+  },
+  "homepage": "https://github.com/limeirong-dev/uni-app-applets-master#readme"
 }
