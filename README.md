@@ -20,8 +20,11 @@
 1、 新建一个`uni-app`项目
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201010192547485.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQ0NDU1MTc=,size_16,color_FFFFFF,t_70#pic_center)
+
 2、项目结构
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201010192722478.png#pic_center)
+
 
 
 .
